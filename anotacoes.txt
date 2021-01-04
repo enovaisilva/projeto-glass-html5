@@ -1,0 +1,102 @@
+Ferramenta Gimp para formatar foto
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+HTML 
+
+<h2 style="text-align: right;">O que é</h2> - Alinhar o texto a direita
+<h2 style="text-align: left;">O que é</h2> - Alinhar o texto a esquerda
+<h2 style="text-align: center;">O que é</h2> - Alinhar o texto ao centro
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+<p style="text-align: justify; text-indent: 50px"> ... </p> - Justificar o texto; espaço do paragrafo 
+
+------------------------------------------------------------------------------------------------------------------------------------------- 
+
+<span style="font-weight:900;">Google Glass</span> - Negrito
+ 
+-------------------------------------------------------------------------------------------------------------------------------------------         
+              pasta/arquivo
+<img src="_imagens/glass-oculos-preto-peq.png"> - Colocar imagem
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+<p> Exemplos de <sup>Formatação</sup></p> - O texto fica acima
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+<p> x<sup>2</sup> e H<sub>2</sub>O</p> - O texto fica acima e o texto fica abaixo
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+&lt;iostream&gt - &lt< ... >&gt - Essas siglas é para substituir os simbolos < ... >
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+<pre>
+<code>
+#include &lt;iostream&gt;
+int main() {
+	cout << "Olá, Mundo!";
+	return 0;
+	}
+</code>
+</pre> - Comando para representa um código na página
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Representações de cores:
+backgroumd-color: #a1d3e;
+color: black;
+
+backgroumd-color: rgb(35, 137, 195);
+color: rgba(0,0,0,0.1);
+
+
+backgroumd-color: hsl(165, 81%, 93%);
+color: hsla(165, 81%, 93%, 0.5); 
+
+1º 0 = Quantidade de vermelho
+2º 0 = Quantidade de verde
+3º 0 = Quantidade de azul
+4º 0 = Canal alfa defini o nivel de tranparencia
+-------------------------------------------------------------------------------------------------------------------------------------------
+CSS
+
+stylesheet = folha de estilo (css)
+href-Hypertext Reference = Serve para chamar um arquivo de fora
+
+<link rel="stylesheet" type="text/css" href="_css/estilo.css"/> - Referencia para chamar um estilo css.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+site: prefixr.com (Para saber o comando para todos os sites)
+Exemplo: transition: blackground-color 1s;
+Safari: -webkit-transition: blackground-color 1s;
+Chrome: -webkit-transition: blackground-color 1s;
+Internet Explorer: -ms-transition: blackground-color 1s;
+Opera: -o-transition: blackground-color 1s;
+Firefox: -moz-transition: blackground-color 1s;
+Android: -webkit-transition: blackground-color 1s;
+iOS: -webkit-transition: blackground-color 1s;
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+site de fontes: https://fonts.google.com/
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Mapas de imagens:
+<section id="conteudo">
+	<img src="_imagens/glass-esquema-marcado.jpg" usemap="#meumapa"/>
+		<map name="meumapa">
+				<area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela"/>
+				<area shape="circle" coords="158,243,12" href="google-glass.html#camera" target="janela"/>
+				<area shape="circle" coords="76,52,11" href="google-glass.html#gadgets" target="janela"/>
+				<area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" target="janela"/>
+		</map>
+		<iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
+	</section>
+-------------------------------------------------------------------------------------------------------------------------------------------
+Site para converte video para audio:
+http://www.mirovideoconverter.com/
+-------------------------------------------------------------------------------------------------------------------------------------------
+Aula - Completo
